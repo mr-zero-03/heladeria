@@ -1,0 +1,87 @@
+    /* Header */
+header nav {
+  background: #eaafc8;
+}
+
+header nav img#navbar-logo {
+  width: 100px;
+}
+
+/* Dropdown Menu */
+header nav div.dropdown-menu {
+  background: #eaafc8;
+}
+
+header nav .dropdown-item {
+  color: white;
+}
+
+header nav .dropdown-item:hover {
+  background-color: #f26363;
+  color: white;
+}
+
+header nav .dropdown-item:active {
+  background-color: white;
+  color: black;
+}
+
+    /* Main */
+  /* Carousel */
+main #carousel {
+  position: relative;
+}
+
+/* Carousel Imgs */
+main #carousel img {
+  max-height: 100vh;
+  object-fit: cover;
+  filter: grayscale( 10% );
+}
+
+/* Overlay */
+main #carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  color: white;
+}
+
+main #carousel .overlay .container,
+main #carousel .overlay .container .row {
+  height: 100%;
+}
+
+  /* Categories */
+
+section#categories div.card img {
+  max-height: 40vh;
+  object-fit: cover;
+}
+
+section#categories div.card a {
+  color: #dc3545;
+}
+
+section#categories div.card a:hover {
+  text-decoration: none;
+}
+
+    /* Footer */
+footer {
+  background: linear-gradient(90deg, #eaafc8 0.5%, #f26363);
+  color: white;
+  bottom: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #dc3545;
+  text-decoration: none;
+}
